@@ -1,4 +1,4 @@
-package com.diego.workshopmongo.resources.util;
+package com.diego.workshopmongo.controller.util;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

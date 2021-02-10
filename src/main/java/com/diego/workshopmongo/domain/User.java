@@ -14,9 +14,9 @@ public class User implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	@Id
-	private String id;
-	private String name;
-	private String email;
+	private String     id;
+	private String     name;
+	private String     email;
 	@DBRef(lazy=true)
 	private List<Post> posts = new ArrayList<Post>();
 	
@@ -25,8 +25,8 @@ public class User implements Serializable{
 
 	public User(String id, String name, String email) {
 		super();
-		this.id = id;
-		this.name = name;
+		this.id    = id;
+		this.name  = name;
 		this.email = email;
 	}
 
